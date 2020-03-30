@@ -41,7 +41,7 @@ public class Greeting {
         int resultSubscriber =0;
 
         try {
-            Integer.parseInt(subscriber);
+            resultSubscriber=Integer.parseInt(subscriber);
         }
         catch (Exception e) {
             System.out.println(e.getMessage());
