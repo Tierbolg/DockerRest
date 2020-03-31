@@ -48,13 +48,13 @@ public class Greeting {
         }
         switch (resultSubscriber){
                 case 111:
-                    lowPower="34.6";
+                    lowPower="34";
                     break;
                 case 222:
-                    lowPower="35.2";
+                    lowPower="35";
                     break;
                 case 999:
-                    lowPower="80.2";
+                    lowPower="41";
                     break;
             }
         return lowPower;
